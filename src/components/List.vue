@@ -1,19 +1,36 @@
 <template>
   <div class="list">
-    <div class="mdl-cell mdl-cell--12-col mdl-grid">
-      <h1>List</h1>
-      <h1>List2</h1>
-      <p>Hello List</p>
-      <p>Hello List</p>
-      <p>Hello List</p>
-      <p>Hello List</p>
+    <div class="demo-list-action mdl-list">
+      <div class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons mdl-list__item-avatar">person</i>
+          <span>Bryan Cranston</span>
+        </span>
+        <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+      </div>
+      <div class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons mdl-list__item-avatar">person</i>
+          <span>Aaron Paul</span>
+        </span>
+        <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+      </div>
+      <div class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons mdl-list__item-avatar">person</i>
+          <span>Bob Odenkirk</span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+          <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+        </span>
+      </div>
     </div>
   </div>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.list {
-  background: red;
+.demo-list-action {
+  width: 300px;
 }
 </style>
